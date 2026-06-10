@@ -14,7 +14,8 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { decryptData } from "@/utils/crypto";
-import { StudentForm, type StudentData } from "@/components/StudentForm";
+import { StudentForm,  } from "@/components/StudentForm";
+import type { StudentData } from "@/types/student";
 
 interface EncryptedStudent {
   id: string;
